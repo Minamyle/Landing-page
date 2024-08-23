@@ -94,14 +94,18 @@ background: -o-linear-gradient(#076dff, #65a5ff);
 background: -moz-linear-gradient(#076dff, #65a5ff);
 background: linear-gradient(#076dff, #65a5ff);
 }
-.leftSide-col{
-    margin-left: 30%;
+div.leftSide-col{
+    margin-left: 20%;
+}
+div.righside-col{
+    margin-left: 10%;
 }
 h1.large{
     color: #fff;
     font-size: 56px;
     margin: 0;
     line-height: 70px;
+    white-space: nowrap;
 
 }
 input[type="text"]{
@@ -109,6 +113,7 @@ font-size: 20px;
 width: 400px;
 min-width: 100px;
 padding: 5px;
+border-radius: 10px;
 }
 
 form h2 {
@@ -141,5 +146,23 @@ form h2 {
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
+  }
+  .col-6{
+    width:100% ;
+    margin: 0;
+  }
+
+  div.leftSide-col,div.rightside-col {
+    margin: 15px;
+  }
+  input[type="text"] {
+    width: 350px;
+   
+  }
+  .videoContainer iframe{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
   }
 }
